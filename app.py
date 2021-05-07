@@ -102,9 +102,7 @@ app = dash.Dash()
 server = app.server
 
 # to add ability to use columns
-app.css.append_css({
-    'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'
-})
+
 
 
 fig = go.Figure(data=[edge_trace, node_trace],
